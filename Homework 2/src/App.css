@@ -1,0 +1,55 @@
+body {
+  background: #E5E5E5;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 220px;
+
+  padding: 15px;
+
+  background: rgb(8, 0, 247);
+  border-radius: 15px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.output {
+  margin-bottom: 1rem;
+}
+
+.input {
+  text-align: right;
+  margin-bottom: 20px;
+} 
+  
+button {
+  font-family: Roboto; 
+  font-style: normal; 
+  font-weight: normal; 
+  font-size: 30px; 
+  line-height: 45px;
+  text-align: center;
+
+  width: 50px;
+  height: 50px;
+
+  background: #3d8ef8;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+
+  color: #FFF;
+}
+
+button:active {
+  color: rgb(8, 0, 247);
+} 
